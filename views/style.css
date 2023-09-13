@@ -1,0 +1,56 @@
+nav {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Add some padding */
+  }
+  
+  nav p {
+    margin: 0; /* Remove default margin for paragraphs inside nav */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link text color */
+  }
+  
+  /* Style the article */
+  article {
+    padding: 20px; /* Add padding */
+  }
+  
+  article h2 {
+    font-size: 24px; /* Adjust font size for the heading */
+  }
+  
+  /* Style the aside section */
+  aside {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add padding */
+  }
+  
+  aside ul {
+    list-style-type: none; /* Remove list bullet points */
+    padding: 0; /* Remove default padding for the list */
+  }
+  
+  aside p {
+    margin: 0; /* Remove default margin for paragraphs inside aside */
+  }
+  
+  aside strong {
+    font-weight: bold; /* Make strong text bold */
+  }
+  
+  /* Style the image */
+  img {
+    border: 1px solid #ddd; /* Add a border to the image */
+    border-radius: 5px; /* Add a rounded border */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
