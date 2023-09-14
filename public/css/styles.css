@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Poppins";
+  background-color: lightblue;
 }
 ul, li {
   padding: 0;
@@ -17,11 +18,11 @@ ul, li {
 header {
   grid-column: span 3;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ff9900;
 }
 nav {
   padding: 30px;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ff9900;
 }
 nav li {
   text-decoration: underline;
@@ -39,16 +40,16 @@ article img {
 article p {
   margin-top: 30px;
   line-height: 2em;
-  color: #777;
+  color: #787474;
 }
 aside {
-  padding: 30px;
-  border-left: 1px solid #ddd;
+  padding: 30px;                                                                                                                                                                                                                                                                             
+  border-left: 1px solid #ff9900;
 }
 footer {
   grid-column: span 3;
   text-align: center;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ff9900;
   padding: 30px;
 }
 
@@ -77,7 +78,7 @@ footer {
   }
   aside {
     border-left: 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ff9900;
   }
   article h2 {
     font-size: 2.5em;
