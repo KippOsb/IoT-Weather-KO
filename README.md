@@ -1,65 +1,40 @@
-# Weather Station
+# Weather Sensor Web Server
 
-## an IoT project
+## Overview
 
-![Yellow-Umbrella](public/assets/yellow-umbrella.png)
+This project is a web-based weather sensor application that collects weather data from a sensor and displays it on a web server. It provides real-time weather information and can be accessed from any device with a web browser.
 
-### Development Roadmap
+## Table of Contents
 
-- [x] Setup repos - GitHub
-- [x] setup ESP32 - Arduino IDE
-- [x] Install dependencies - aREST.h and DHT.h
-- [x] Test ESP32 - get json data via wifi
-- [x] Initialize Node.js environment
-- [x] setup server.js with express
-- [ ] set index route and views
-- [ ] link ESP32 to Node app with fetch
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Initializing a Node.js Environment
+## Features
 
-1. Ensure that Node.js and NPM are installed on your system:
-    > node --version
+- Real-time weather data display.
+- Responsive web interface for use on desktops, tablets, and mobile devices.
+- Customizable data visualization.
+- Historical data storage and retrieval.
+- Alerts and notifications for extreme weather conditions.
 
-    > npm --version
+## Prerequisites
 
-2. In terminal, inside the project directory:
-    > npm init -y
+Before you get started, make sure you have the following prerequisites in place:
 
-3. This will add a package.json file
+- A weather sensor device with an interface to collect data.
+- A computer or server to host the web application.
+- Node.js and npm installed on the host server.
+- Basic knowledge of JavaScript, HTML, and CSS.
+- A database system (e.g., MySQL, PostgreSQL) for storing historical weather data (optional).
 
-4. Install dependencies
-    > npm install express ejs express-ejs-layouts
+## Installation
 
-5. Install development dependencies
-    > npm install --save-dev dotenv nodemon
+1. Clone the repository to your server:
 
-
-### Initializing a Node.js Environment
-
-1. Ensure that Node.js and NPM are installed on your system:
-    > node --version
-
-    > npm --version
-
-2. In terminal, inside the project directory:
-    > npm init -y
-
-3. This will add a package.json file
-
-4. Install dependencies
-    > npm install express ejs express-ejs-layouts
-
-5. Install development dependencies
-    > npm install --save-dev dotenv nodemon
-
-### Worklog and Commits
-
-Date | Commit Message | Version
-:-----|:----------------:|:--------:
-25.08.23 | initial setup | 0.1.0
-
-### References
-
-- [Web Page Layouts](https://www.youtube.com/watch?v=3C_22eBWpjg)
-- [JS Native Fetch](https://www.youtube.com/watch?v=MBqS1kYzwTc)
-
+   ```bash
+   git clone https://github.com/yourusername/weather-sensor-web.git
