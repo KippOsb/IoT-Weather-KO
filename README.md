@@ -35,3 +35,11 @@ Before you get started, make sure you have the following prerequisites in place:
 
    ```bash
    git clone https://github.com/yourusername/weather-sensor-web.git
+
+## Images/Documentation
+
+<img src="assets/Css.png" width="75px" alt="article banner">
+<img src="assets/Screenshot 2023-10-17 143709.png" width="75px" alt="article banner">
+<img src="assets/Wiring.jpeg" width="75px" alt="article banner">
+
+- Unfortuantly I was unable to get a photo of my web server as we were not able to access our esps
